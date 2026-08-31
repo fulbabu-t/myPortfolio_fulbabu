@@ -1,0 +1,477 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Explore my",
+        "title_long": "Portfolio & {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora mi",
+        "title_long": "Portafolio y {{Logros}}"
+      },
+      "fr": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Découvrez mon",
+        "title_long": "Portfolio et {{Réalisations}}"
+      },
+      "ko": {
+        "title_short": "포트폴리오",
+        "title_short_nav": "포트폴리오",
+        "title_long_prefix": "나의",
+        "title_long": "포트폴리오 및 {{성과}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 3,
+      "component": "ArticlePortfolio",
+
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_web": "Web",
+          "category_app": "App",
+          "category_project": "Project"
+        },
+
+        "es": {
+          "category_all": "Todo",
+          "category_web": "Web",
+          "category_app": "Aplicación",
+          "category_project": "Proyecto"
+        },
+
+        "fr": {
+          "category_all": "Tout",
+          "category_web": "Web",
+          "category_app": "Application",
+          "category_project": "Projet"
+        },
+
+        "ko": {
+          "category_all": "모두",
+          "category_web": "웹",
+          "category_app": "앱",
+          "category_project": "프로젝트"
+        }
+      },
+
+      "settings": {
+        "categorize_by": ["category_web", "category_app", "category_project"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-calendar-check",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "GitHub",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Schedula-GSSoC-26"
+              },
+              {
+                "title": "Live Demo",
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://schedula-mu-pink.vercel.app/"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Schedula",
+              "text": "An appointment and booking platform developed for the <b>Odoo x VIT Hackathon 2026</b>, designed to help users discover services, find available time slots, and complete bookings quickly.",
+              "tags": ["Web", "React", "Node.js", "Booking"]
+            },
+            "es": {
+              "title": "Schedula",
+              "text": "Una plataforma de reservas desarrollada para el <b>Odoo x VIT Hackathon 2026</b>, diseñada para descubrir servicios, encontrar horarios disponibles y completar reservas rápidamente.",
+              "tags": ["Web", "React", "Node.js", "Reservas"]
+            },
+            "fr": {
+              "title": "Schedula",
+              "text": "Une plateforme de réservation développée pour le <b>Odoo x VIT Hackathon 2026</b>, permettant de découvrir des services, trouver des créneaux et réserver rapidement.",
+              "tags": ["Web", "React", "Node.js", "Réservation"]
+            },
+            "ko": {
+              "title": "Schedula",
+              "text": "<b>Odoo x VIT Hackathon 2026</b>을 위해 개발한 예약 플랫폼으로 서비스 검색, 시간대 확인 및 빠른 예약을 지원합니다.",
+              "tags": ["웹", "React", "Node.js", "예약"]
+            }
+          }
+        },
+
+        {
+          "id": 8,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-briefcase",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "View Project",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Job-hunt_project"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Jobhunt",
+              "text": "A personal job-search agent that reads public ATS APIs, filters and ranks job postings against your resume, drafts application kits for the best opportunities, and sends a daily email digest.",
+              "tags": ["Python", "Job Search", "ATS", "LLM", "Automation"]
+            },
+            "es": {
+              "title": "Jobhunt",
+              "text": "Un agente personal de búsqueda de empleo que lee APIs públicas de ATS, filtra y clasifica ofertas según tu currículum, prepara kits de aplicación y envía un resumen diario por correo electrónico.",
+              "tags": [
+                "Python",
+                "Búsqueda de empleo",
+                "ATS",
+                "LLM",
+                "Automatización"
+              ]
+            },
+            "fr": {
+              "title": "Jobhunt",
+              "text": "Un agent personnel de recherche d'emploi qui lit les API ATS publiques, filtre et classe les offres selon votre CV, prépare les candidatures et envoie un résumé quotidien par e-mail.",
+              "tags": [
+                "Python",
+                "Recherche d'emploi",
+                "ATS",
+                "LLM",
+                "Automatisation"
+              ]
+            },
+            "ko": {
+              "title": "Jobhunt",
+              "text": "공개 ATS API에서 채용 공고를 가져와 이력서와 비교하여 필터링하고 순위를 매기며, 적합한 공고의 지원 자료를 작성하고 매일 이메일 요약을 보내는 개인 취업 검색 에이전트입니다.",
+              "tags": ["Python", "취업 검색", "ATS", "LLM", "자동화"]
+            }
+          }
+        },
+
+        {
+          "id": 9,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-tooth",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "View Project",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Dental-Ai-Assistance-"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Dentwise",
+              "text": "An AI-powered dental appointment platform built with <b>Next.js, TypeScript, Tailwind CSS, and PostgreSQL</b>, featuring appointment booking, AI voice assistance, secure authentication, subscriptions, email notifications, and an admin dashboard.",
+              "tags": [
+                "Web",
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "AI",
+                "Vapi"
+              ]
+            },
+            "es": {
+              "title": "Dentwise",
+              "text": "Una plataforma dental impulsada por IA construida con <b>Next.js, TypeScript, Tailwind CSS y PostgreSQL</b>, con reservas de citas, asistencia de voz mediante IA, autenticación segura, suscripciones, notificaciones por correo electrónico y un panel de administración.",
+              "tags": [
+                "Web",
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "IA",
+                "Vapi"
+              ]
+            },
+            "fr": {
+              "title": "Dentwise",
+              "text": "Une plateforme dentaire alimentée par l'IA construite avec <b>Next.js, TypeScript, Tailwind CSS et PostgreSQL</b>, offrant la prise de rendez-vous, un assistant vocal IA, une authentification sécurisée, des abonnements, des notifications par e-mail et un tableau de bord administrateur.",
+              "tags": [
+                "Web",
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "IA",
+                "Vapi"
+              ]
+            },
+            "ko": {
+              "title": "Dentwise",
+              "text": "<b>Next.js, TypeScript, Tailwind CSS 및 PostgreSQL</b>로 구축된 AI 기반 치과 예약 플랫폼으로 예약 관리, AI 음성 지원, 보안 인증, 구독, 이메일 알림 및 관리자 대시보드를 제공합니다.",
+              "tags": [
+                "웹",
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "AI",
+                "Vapi"
+              ]
+            }
+          }
+        },
+
+        {
+          "id": 10,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-network-wired",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "View Project",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Packet-Analyzer"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Packet-Analyzer",
+              "text": "A network packet analysis tool designed to capture, inspect, and analyze network traffic for understanding packet-level communication.",
+              "tags": [
+                "Networking",
+                "Packet Analyzer",
+                "Python",
+                "Cybersecurity"
+              ]
+            },
+            "es": {
+              "title": "Packet-Analyzer",
+              "text": "Una herramienta de análisis de paquetes de red diseñada para capturar, inspeccionar y analizar el tráfico de red para comprender la comunicación a nivel de paquetes.",
+              "tags": [
+                "Redes",
+                "Analizador de paquetes",
+                "Python",
+                "Ciberseguridad"
+              ]
+            },
+            "fr": {
+              "title": "Packet-Analyzer",
+              "text": "Un outil d'analyse des paquets réseau conçu pour capturer, inspecter et analyser le trafic réseau afin de comprendre les communications au niveau des paquets.",
+              "tags": [
+                "Réseau",
+                "Analyseur de paquets",
+                "Python",
+                "Cybersécurité"
+              ]
+            },
+            "ko": {
+              "title": "Packet-Analyzer",
+              "text": "네트워크 트래픽을 캡처하고 검사 및 분석하여 패킷 수준의 통신을 이해할 수 있도록 설계된 네트워크 패킷 분석 도구입니다.",
+              "tags": ["네트워크", "패킷 분석기", "Python", "사이버 보안"]
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "categoryId": "category_app",
+          "img": "",
+          "faIcon": "fa-solid fa-comments",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Group Chatting Application",
+              "text": "A real-time <b>group communication application</b> built for modern messaging, user interaction, and collaborative communication.",
+              "tags": ["App", "React", "Node.js", "Express", "MongoDB"]
+            },
+            "es": {
+              "title": "Aplicación de Chat Grupal",
+              "text": "Una aplicación de <b>comunicación grupal en tiempo real</b> creada para mensajería moderna e interacción entre usuarios.",
+              "tags": ["Aplicación", "React", "Node.js", "Express", "MongoDB"]
+            },
+            "fr": {
+              "title": "Application de Chat de Groupe",
+              "text": "Une application de <b>communication de groupe en temps réel</b> conçue pour la messagerie moderne et l'interaction entre utilisateurs.",
+              "tags": ["Application", "React", "Node.js", "Express", "MongoDB"]
+            },
+            "ko": {
+              "title": "그룹 채팅 애플리케이션",
+              "text": "현대적인 메시징과 사용자 상호작용을 위한 실시간 <b>그룹 커뮤니케이션 애플리케이션</b>입니다.",
+              "tags": ["앱", "React", "Node.js", "Express", "MongoDB"]
+            }
+          }
+        },
+
+        {
+          "id": 6,
+          "categoryId": "category_app",
+          "img": "",
+          "faIcon": "fa-solid fa-robot",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "AI Chatbot Application",
+              "text": "An <b>AI-powered chatbot</b> focused on intelligent conversations, API integration, and AI-assisted user experiences.",
+              "tags": ["App", "AI", "JavaScript", "API", "Chatbot"]
+            },
+            "es": {
+              "title": "Aplicación de Chatbot IA",
+              "text": "Un <b>chatbot impulsado por IA</b> centrado en conversaciones inteligentes e integración de APIs.",
+              "tags": ["Aplicación", "IA", "JavaScript", "API", "Chatbot"]
+            },
+            "fr": {
+              "title": "Application Chatbot IA",
+              "text": "Un <b>chatbot alimenté par IA</b> axé sur les conversations intelligentes et l'intégration d'API.",
+              "tags": ["Application", "IA", "JavaScript", "API", "Chatbot"]
+            },
+            "ko": {
+              "title": "AI 챗봇 애플리케이션",
+              "text": "지능적인 대화와 API 통합을 제공하는 <b>AI 기반 챗봇</b>입니다.",
+              "tags": ["앱", "AI", "JavaScript", "API", "챗봇"]
+            }
+          }
+        },
+
+        {
+          "id": 7,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-server",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "GitHub",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Music-Melodify"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Music Backend",
+              "text": "A backend service built with <b>Node.js, Express.js, and MongoDB</b> for music-focused application functionality and APIs.",
+              "tags": ["Web", "Node.js", "Express.js", "MongoDB", "Backend"]
+            },
+            "es": {
+              "title": "Backend Musical",
+              "text": "Un servicio backend construido con <b>Node.js, Express.js y MongoDB</b> para funcionalidades y APIs de una aplicación musical.",
+              "tags": ["Web", "Node.js", "Express.js", "MongoDB", "Backend"]
+            },
+            "fr": {
+              "title": "Backend Musical",
+              "text": "Un service backend construit avec <b>Node.js, Express.js et MongoDB</b> pour les fonctionnalités et API d'une application musicale.",
+              "tags": ["Web", "Node.js", "Express.js", "MongoDB", "Backend"]
+            },
+            "ko": {
+              "title": "음악 백엔드",
+              "text": "<b>Node.js, Express.js 및 MongoDB</b>로 구축한 음악 애플리케이션용 백엔드 서비스입니다.",
+              "tags": ["웹", "Node.js", "Express.js", "MongoDB", "Backend"]
+            }
+          }
+        },
+
+        {
+          "id": 8,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Course Selling App",
+              "text": "A full-stack <b>course selling platform</b> with authentication, course management, and a structured learning experience.",
+              "tags": ["Web", "MERN", "React", "Node.js", "MongoDB"]
+            },
+            "es": {
+              "title": "Plataforma de Cursos",
+              "text": "Una plataforma full-stack de <b>venta de cursos</b> con autenticación y gestión de cursos.",
+              "tags": ["Web", "MERN", "React", "Node.js", "MongoDB"]
+            },
+            "fr": {
+              "title": "Plateforme de Vente de Cours",
+              "text": "Une plateforme full-stack de <b>vente de cours</b> avec authentification et gestion des cours.",
+              "tags": ["Web", "MERN", "React", "Node.js", "MongoDB"]
+            },
+            "ko": {
+              "title": "강의 판매 애플리케이션",
+              "text": "인증과 강의 관리를 제공하는 풀스택 <b>강의 판매 플랫폼</b>입니다.",
+              "tags": ["웹", "MERN", "React", "Node.js", "MongoDB"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

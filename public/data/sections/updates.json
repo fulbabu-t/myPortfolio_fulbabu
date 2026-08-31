@@ -1,0 +1,449 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "My Journey",
+        "title_short_nav": "Updates",
+        "title_long_prefix": "Explore my",
+        "title_long": "Professional {{Journey}}"
+      },
+      "es": {
+        "title_short": "Mi Trayectoria",
+        "title_short_nav": "Actualizaciones",
+        "title_long_prefix": "Explora mi",
+        "title_long": "Trayectoria {{Profesional}}"
+      },
+      "fr": {
+        "title_short": "Mon Parcours",
+        "title_short_nav": "Actualités",
+        "title_long_prefix": "Découvrez mon",
+        "title_long": "Parcours {{Professionnel}}"
+      },
+      "ko": {
+        "title_short": "나의 여정",
+        "title_short_nav": "업데이트",
+        "title_long_prefix": "나의",
+        "title_long": "{{전문적인 여정}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleFacts",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": null,
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "CSE",
+              "text": "B.Tech in Computer Science"
+            },
+            "es": {
+              "title": "CSE",
+              "text": "B.Tech en Informática"
+            },
+            "fr": {
+              "title": "CSE",
+              "text": "B.Tech en Informatique"
+            },
+            "ko": {
+              "title": "CSE",
+              "text": "컴퓨터 과학 B.Tech"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": null,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "MERN",
+              "text": "Full-Stack Development"
+            },
+            "es": {
+              "title": "MERN",
+              "text": "Desarrollo Full-Stack"
+            },
+            "fr": {
+              "title": "MERN",
+              "text": "Développement Full-Stack"
+            },
+            "ko": {
+              "title": "MERN",
+              "text": "풀스택 개발"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": null,
+          "faIcon": "fa-solid fa-trophy",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Hackathons",
+              "text": "Challenges & Achievements"
+            },
+            "es": {
+              "title": "Hackathons",
+              "text": "Desafíos y Logros"
+            },
+            "fr": {
+              "title": "Hackathons",
+              "text": "Défis et Réalisations"
+            },
+            "ko": {
+              "title": "해커톤",
+              "text": "도전과 성과"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": null,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "DSA",
+              "text": "Problem Solving & Algorithms"
+            },
+            "es": {
+              "title": "DSA",
+              "text": "Resolución de Problemas y Algoritmos"
+            },
+            "fr": {
+              "title": "DSA",
+              "text": "Résolution de Problèmes et Algorithmes"
+            },
+            "ko": {
+              "title": "DSA",
+              "text": "문제 해결 및 알고리즘"
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "img": null,
+          "faIcon": "fa-solid fa-heart",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Infinite",
+              "text": "Passion for Learning"
+            },
+            "es": {
+              "title": "Infinita",
+              "text": "Pasión por Aprender"
+            },
+            "fr": {
+              "title": "Infinie",
+              "text": "Passion d'Apprendre"
+            },
+            "ko": {
+              "title": "무한대",
+              "text": "배움에 대한 열정"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": null,
+          "faIcon": "fa-solid fa-code-branch",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Open Source Contributions",
+              "text": "Open Source Contributions"
+            },
+            "es": {
+              "title": "Contribuciones de Código Abierto",
+              "text": "Contribuciones de Código Abierto"
+            },
+            "fr": {
+              "title": "Contributions Open Source",
+              "text": "Contributions Open Source"
+            },
+            "ko": {
+              "title": "오픈 소스 기여",
+              "text": "오픈 소스 기여"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticlePortfolio",
+
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_hackathons": "Hackathons",
+          "category_certificates": "Certificates",
+          "category_learning": "Learning",
+          "category_projects": "Projects"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_hackathons": "Hackathons",
+          "category_certificates": "Certificados",
+          "category_learning": "Aprendizaje",
+          "category_projects": "Proyectos"
+        },
+        "fr": {
+          "category_all": "Tout",
+          "category_hackathons": "Hackathons",
+          "category_certificates": "Certificats",
+          "category_learning": "Apprentissage",
+          "category_projects": "Projets"
+        },
+        "ko": {
+          "category_all": "모두",
+          "category_hackathons": "해커톤",
+          "category_certificates": "수료증",
+          "category_learning": "학습",
+          "category_projects": "프로젝트"
+        }
+      },
+
+      "settings": {
+        "categorize_by": [
+          "category_hackathons",
+          "category_certificates",
+          "category_learning",
+          "category_projects"
+        ],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_hackathons",
+          "img": "",
+          "faIcon": "fa-solid fa-trophy",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Schedula — Hackathon",
+              "text": "An appointment and booking platform developed for a <b>hackathon</b>, focusing on fast booking, available time slots, and a smooth user experience.",
+              "tags": ["Hackathon", "React", "Node.js"]
+            },
+            "es": {
+              "title": "Schedula — Hackathon",
+              "text": "Una plataforma de reservas y citas desarrollada para un <b>hackathon</b>, centrada en reservas rápidas y una experiencia de usuario fluida.",
+              "tags": ["Hackathon", "React", "Node.js"]
+            },
+            "fr": {
+              "title": "Schedula — Hackathon",
+              "text": "Une plateforme de réservation développée pour un <b>hackathon</b>, axée sur la réservation rapide et une expérience utilisateur fluide.",
+              "tags": ["Hackathon", "React", "Node.js"]
+            },
+            "ko": {
+              "title": "Schedula — 해커톤",
+              "text": "빠른 예약과 원활한 사용자 경험을 목표로 개발한 <b>해커톤 프로젝트</b>입니다.",
+              "tags": ["Hackathon", "React", "Node.js"]
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "categoryId": "category_certificates",
+          "img": "",
+          "faIcon": "fa-solid fa-certificate",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Certifications",
+              "text": "Professional learning achievements and <b>certificates</b> earned through technology, development, cloud, and AI learning programs.",
+              "tags": ["Certificates", "Learning", "Technology"]
+            },
+            "es": {
+              "title": "Certificaciones",
+              "text": "Logros de aprendizaje profesional y <b>certificados</b> obtenidos mediante programas de tecnología, desarrollo e IA.",
+              "tags": ["Certificados", "Aprendizaje", "Tecnología"]
+            },
+            "fr": {
+              "title": "Certifications",
+              "text": "Réalisations d'apprentissage professionnel et <b>certificats</b> obtenus grâce à des programmes de technologie, développement et IA.",
+              "tags": ["Certificats", "Apprentissage", "Technologie"]
+            },
+            "ko": {
+              "title": "자격 및 수료증",
+              "text": "기술, 개발 및 AI 학습 프로그램을 통해 얻은 <b>학습 성과와 수료증</b>입니다.",
+              "tags": ["수료증", "학습", "기술"]
+            }
+          }
+        },
+
+        {
+          "id": 11,
+          "categoryId": "category_learning",
+          "img": "",
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [
+              {
+                "title": "View Project",
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/fulbabu-t/Ai-Engg_with_Fulbabu_notes"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "AI Engineer Learning",
+              "text": "A learning project focused on Artificial Intelligence and AI Engineering concepts, including machine learning, deep learning, LLMs, and modern AI development workflows.",
+              "tags": [
+                "AI",
+                "AI Engineering",
+                "Machine Learning",
+                "Deep Learning",
+                "LLM",
+                "Python"
+              ]
+            },
+            "es": {
+              "title": "AI Engineer Learning",
+              "text": "Un proyecto de aprendizaje enfocado en Inteligencia Artificial e Ingeniería de IA, incluyendo aprendizaje automático, aprendizaje profundo, LLM y flujos modernos de desarrollo de IA.",
+              "tags": [
+                "IA",
+                "Ingeniería de IA",
+                "Machine Learning",
+                "Deep Learning",
+                "LLM",
+                "Python"
+              ]
+            },
+            "fr": {
+              "title": "AI Engineer Learning",
+              "text": "Un projet d'apprentissage axé sur l'intelligence artificielle et l'ingénierie IA, notamment le machine learning, le deep learning, les LLM et les workflows modernes de développement IA.",
+              "tags": [
+                "IA",
+                "Ingénierie IA",
+                "Machine Learning",
+                "Deep Learning",
+                "LLM",
+                "Python"
+              ]
+            },
+            "ko": {
+              "title": "AI Engineer Learning",
+              "text": "머신러닝, 딥러닝, LLM 및 최신 AI 개발 워크플로를 포함한 인공지능과 AI 엔지니어링 개념을 학습하기 위한 프로젝트입니다.",
+              "tags": [
+                "AI",
+                "AI 엔지니어링",
+                "Machine Learning",
+                "Deep Learning",
+                "LLM",
+                "Python"
+              ]
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "categoryId": "category_projects",
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Full-Stack Projects",
+              "text": "A collection of <b>web, backend, MERN, and AI projects</b> built while developing practical software engineering skills.",
+              "tags": ["MERN", "React", "Node.js", "Projects"]
+            },
+            "es": {
+              "title": "Proyectos Full-Stack",
+              "text": "Una colección de <b>proyectos web, backend, MERN e IA</b> desarrollados para fortalecer habilidades prácticas de ingeniería de software.",
+              "tags": ["MERN", "React", "Node.js", "Proyectos"]
+            },
+            "fr": {
+              "title": "Projets Full-Stack",
+              "text": "Une collection de <b>projets web, backend, MERN et IA</b> développés pour renforcer les compétences pratiques d'ingénierie logicielle.",
+              "tags": ["MERN", "React", "Node.js", "Projets"]
+            },
+            "ko": {
+              "title": "풀스택 프로젝트",
+              "text": "실무적인 소프트웨어 엔지니어링 역량을 개발하며 만든 <b>웹, 백엔드, MERN 및 AI 프로젝트</b> 모음입니다.",
+              "tags": ["MERN", "React", "Node.js", "프로젝트"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

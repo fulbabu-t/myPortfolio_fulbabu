@@ -1,0 +1,139 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Coding",
+        "title_short_nav": "Coding Proof",
+        "title_long_prefix": "Problem Solving &",
+        "title_long": "{{Proof}}"
+      },
+      "es": {
+        "title_short": "Coding",
+        "title_short_nav": "Coding Proof",
+        "title_long_prefix": "Resolución de Problemas &",
+        "title_long": "{{Proof}}"
+      },
+      "fr": {
+        "title_short": "Coding",
+        "title_short_nav": "Coding Proof",
+        "title_long_prefix": "Coding",
+        "title_long": "{{Proof}}"
+      },
+      "ko": {
+        "title_short": "Coding",
+        "title_short_nav": "Coding Proof",
+        "title_long_prefix": "Coding",
+        "title_long": "{{Proof}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/leetcode.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "#FFF3E0",
+            "fill": "#FFA116"
+          },
+          "date": {
+            "year": 2025,
+            "month": 1
+          },
+          "link": {
+            "href": "https://leetcode.com/u/Fulbabu/",
+            "tooltipString": "Visit my LeetCode profile"
+          },
+          "locales": {
+            "en": {
+              "title": "{{LeetCode}}",
+              "text": "Solved 700+ Data Structures & Algorithms problems and actively participate in coding contests."
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "images/pictures/gfg.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "#E8F5E9",
+            "fill": "#2F8D46"
+          },
+          "date": {
+            "year": 2024,
+            "month": 8
+          },
+          "link": {
+            "href": "https://www.geeksforgeeks.org/profile/fulbabkli8?tab=activity",
+            "tooltipString": "Visit my GeeksforGeeks profile"
+          },
+          "locales": {
+            "en": {
+              "title": "{{GeeksforGeeks}}",
+              "text": "Practiced interview-focused DSA problems and explored core computer science concepts."
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": {
+            "bg": "#E8F0FE",
+            "fill": "#1F8ACB"
+          },
+          "date": {
+            "year": 2025,
+            "month": 8
+          },
+          "link": {
+            "href": "https://www.codechef.com/users/ful_babu_code",
+            "tooltipString": "Visit my CodeChef profile"
+          },
+          "locales": {
+            "en": {
+              "title": "{{CodeChef}}",
+              "text": "Regular competitive programmer, solving algorithmic challenges and participating in rated contests."
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-brands fa-github",
+          "faIconColors": {
+            "bg": "#F3F4F6",
+            "fill": "#181717"
+          },
+          "date": {
+            "year": 2025,
+            "month": 8
+          },
+          "link": {
+            "href": "https://github.com/fulbabu-t",
+            "tooltipString": "Visit my GitHub profile"
+          },
+          "locales": {
+            "en": {
+              "title": "{{GitHub}}",
+              "text": "Open-source contributor with projects in MERN Stack, AI, Full Stack Development, and Data Structures & Algorithms."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

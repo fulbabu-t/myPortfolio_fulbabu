@@ -1,0 +1,101 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "{{Work}} Experience"
+      },
+      "es": {
+        "title_short": "Experiencia",
+        "title_short_nav": "Experiencia",
+        "title_long_prefix": "Resumen de mi",
+        "title_long": "Experiencia {{Laboral}}"
+      },
+      "fr": {
+        "title_short": "Expérience",
+        "title_short_nav": "Expérience",
+        "title_long_prefix": "Résumé de mon",
+        "title_long": "Parcours {{Professionel}}"
+      },
+      "ko": {
+        "title_short": "경험",
+        "title_short_nav": "경험",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{직업적}} 경험"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "dateStart"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/timeline-place-udacity.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2025, "month": 11 },
+          "dateEnd": { "year": 2026, "month": 2 },
+          "locales": {
+            "en": {
+              "title": "{{Full Stack Web Development}} Intern",
+              "province": "Bengaluru",
+              "country": "India",
+              "institution": "Krutanic Solutions",
+              "text": "Successfully completed an internship in [[Full Stack Web Development]], demonstrating strong technical skills, professionalism, and a keen interest in web development while contributing valuable work to the team.",
+              "list": [],
+              "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Full Stack Web Development"
+              ]
+            },
+            "es": {
+              "title": "Pasante de {{Desarrollo Web Full Stack}}",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "Krutanic Solutions",
+              "text": "Completé con éxito una pasantía en [[Desarrollo Web Full Stack]], demostrando sólidas habilidades técnicas, profesionalismo y un gran interés en el desarrollo web, mientras contribuía con trabajo valioso al equipo.",
+              "list": [],
+              "tags": ["HTML", "CSS", "JavaScript", "Desarrollo Web Full Stack"]
+            },
+            "fr": {
+              "title": "Stagiaire en {{Développement Web Full Stack}}",
+              "province": "Bengaluru",
+              "country": "Inde",
+              "institution": "Krutanic Solutions",
+              "text": "Stage réalisé avec succès en [[Développement Web Full Stack]], avec démonstration de solides compétences techniques, de professionnalisme et d’un vif intérêt pour le développement web, tout en contribuant aux activités de l’équipe.",
+              "list": [],
+              "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Développement Web Full Stack"
+              ]
+            },
+            "ko": {
+              "title": "{{풀스택 웹 개발}} 인턴",
+              "province": "벵갈루루",
+              "country": "인도",
+              "institution": "Krutanic Solutions",
+              "text": "[[풀스택 웹 개발]] 인턴십을 성공적으로 완료했으며, 뛰어난 기술 역량과 전문성, 웹 개발에 대한 높은 관심을 보여주고 팀에 가치 있는 기여를 했습니다.",
+              "list": [],
+              "tags": ["HTML", "CSS", "JavaScript", "풀스택 웹 개발"]
+            }
+          }
+        }
+        
+      ]
+    }
+  ]
+}

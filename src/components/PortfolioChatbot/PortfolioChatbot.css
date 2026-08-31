@@ -1,0 +1,641 @@
+/* =========================================================
+   PORTFOLIO AI CHATBOT
+   ========================================================= */
+
+/* =========================================================
+   FLOATING AI BUTTON
+   ========================================================= */
+
+.portfolio-ai-button {
+  position: fixed;
+
+  right: 28px;
+  bottom: 28px;
+
+  width: 78px;
+  height: 78px;
+
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(145deg, #514d5b 0%, #353943 48%, #46404e 100%);
+
+  cursor: pointer;
+
+  z-index: 999999;
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.35),
+    inset 0 1px 1px rgba(255, 255, 255, 0.08);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.portfolio-ai-button:hover {
+  transform: translateY(-5px) scale(1.03);
+
+  box-shadow:
+    0 22px 55px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(150, 190, 255, 0.18);
+}
+
+.portfolio-ai-button:active {
+  transform: scale(0.96);
+}
+
+/* =========================================================
+   ROBOT ICON
+   ========================================================= */
+
+.portfolio-ai-icon {
+  position: relative;
+
+  width: 52px;
+  height: 52px;
+}
+
+/* Robot face */
+
+.portfolio-ai-face {
+  position: absolute;
+
+  left: 3px;
+  top: 4px;
+
+  width: 43px;
+  height: 37px;
+
+  border: 7px solid #a9d4ff;
+  border-radius: 17px;
+
+  background: #111315;
+
+  box-shadow:
+    0 0 8px rgba(170, 215, 255, 0.9),
+    0 0 18px rgba(130, 180, 255, 0.55),
+    inset 0 0 12px rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+}
+
+/* Robot eyes */
+
+.portfolio-ai-face span {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #b8dcff;
+
+  box-shadow:
+    0 0 7px #a9d4ff,
+    0 0 13px rgba(160, 205, 255, 0.8);
+
+  animation: chatbotEyes 3s ease-in-out infinite;
+}
+
+.portfolio-ai-face span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+/* Eye blink */
+
+@keyframes chatbotEyes {
+  0%,
+  90%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  94% {
+    transform: scaleY(0.15);
+  }
+}
+
+/* Robot chat tail */
+
+.portfolio-ai-tail {
+  position: absolute;
+
+  left: 31px;
+  top: 35px;
+
+  width: 13px;
+  height: 17px;
+
+  background: #a9d4ff;
+
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 100%);
+
+  filter: drop-shadow(0 0 5px #a9d4ff)
+    drop-shadow(0 0 10px rgba(130, 180, 255, 0.7));
+}
+
+/* Robot side bumps */
+
+.portfolio-ai-icon::before,
+.portfolio-ai-icon::after {
+  content: "";
+
+  position: absolute;
+
+  top: 17px;
+
+  width: 8px;
+  height: 17px;
+
+  border-radius: 6px;
+
+  background: #a9d4ff;
+
+  box-shadow: 0 0 8px rgba(160, 205, 255, 0.8);
+}
+
+.portfolio-ai-icon::before {
+  left: -1px;
+}
+
+.portfolio-ai-icon::after {
+  right: -1px;
+}
+
+/* =========================================================
+   CHAT WINDOW
+   ========================================================= */
+
+.portfolio-ai-chat {
+  position: fixed;
+
+  right: 28px;
+  bottom: 28px;
+
+  width: 390px;
+  height: 600px;
+
+  z-index: 999999;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: linear-gradient(145deg, #1b1d24, #101216);
+
+  border: 1px solid rgba(170, 210, 255, 0.14);
+
+  box-shadow:
+    0 25px 80px rgba(0, 0, 0, 0.55),
+    0 0 40px rgba(130, 180, 255, 0.08);
+
+  animation: chatbotOpen 0.3s ease;
+}
+
+/* Chat open animation */
+
+@keyframes chatbotOpen {
+  from {
+    opacity: 0;
+    transform: translateY(25px) scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* =========================================================
+   CHAT HEADER
+   ========================================================= */
+
+.portfolio-ai-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 16px;
+
+  background: linear-gradient(145deg, #151820, #0e1015);
+
+  color: white;
+
+  border-bottom: 1px solid rgba(169, 212, 255, 0.1);
+}
+
+/* Header title */
+
+.portfolio-ai-title {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+/* Header robot */
+
+.portfolio-ai-avatar {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: linear-gradient(145deg, #3f4654, #252a33);
+
+  color: #a9d4ff;
+
+  box-shadow: 0 0 15px rgba(169, 212, 255, 0.15);
+}
+
+/* Header title */
+
+.portfolio-ai-title strong {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #ffffff;
+}
+
+/* Header subtitle */
+
+.portfolio-ai-title small {
+  display: block;
+
+  margin-top: 3px;
+
+  font-size: 10px;
+
+  color: #a9d4ff;
+
+  opacity: 0.8;
+}
+
+/* =========================================================
+   HEADER ACTIONS
+   ========================================================= */
+
+.portfolio-ai-actions {
+  display: flex;
+
+  gap: 6px;
+}
+
+.portfolio-ai-actions button {
+  width: 32px;
+  height: 32px;
+
+  border: 0;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.portfolio-ai-actions button:hover {
+  background: rgba(169, 212, 255, 0.18);
+
+  color: #a9d4ff;
+
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   CHAT MESSAGES
+   ========================================================= */
+
+.portfolio-ai-messages {
+  flex: 1;
+
+  overflow-y: auto;
+
+  padding: 18px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(169, 212, 255, 0.04),
+      transparent 35%
+    ),
+    #14161b;
+
+  scrollbar-width: thin;
+}
+
+/* Chrome scrollbar */
+
+.portfolio-ai-messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.portfolio-ai-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.portfolio-ai-messages::-webkit-scrollbar-thumb {
+  background: rgba(169, 212, 255, 0.25);
+
+  border-radius: 10px;
+}
+
+/* Message row */
+
+.portfolio-ai-message {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 8px;
+
+  margin-bottom: 15px;
+}
+
+.portfolio-ai-message.user {
+  flex-direction: row-reverse;
+}
+
+/* Message avatar */
+
+.portfolio-ai-message-icon {
+  width: 30px;
+  height: 30px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #292d35;
+
+  font-size: 13px;
+}
+
+/* Message bubble */
+
+.portfolio-ai-bubble {
+  max-width: 78%;
+
+  padding: 10px 13px;
+
+  border-radius: 14px;
+
+  background: #e9edf2;
+
+  color: #111827;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  word-break: break-word;
+}
+
+/* User message */
+
+.portfolio-ai-message.user .portfolio-ai-bubble {
+  background: #30445b;
+
+  color: #ffffff;
+}
+
+/* Assistant message */
+
+.portfolio-ai-message.assistant .portfolio-ai-bubble {
+  border-top-left-radius: 5px;
+}
+
+/* =========================================================
+   TYPING INDICATOR
+   ========================================================= */
+
+.typing {
+  display: flex;
+
+  align-items: center;
+
+  gap: 4px;
+}
+
+.typing span {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #8daecc;
+
+  animation: chatbotTyping 1s infinite;
+}
+
+.typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes chatbotTyping {
+  0%,
+  100% {
+    opacity: 0.3;
+
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 1;
+
+    transform: translateY(-3px);
+  }
+}
+
+/* =========================================================
+   INPUT AREA
+   ========================================================= */
+
+.portfolio-ai-input {
+  display: flex;
+
+  gap: 8px;
+
+  padding: 12px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: #101216;
+}
+
+/* Input */
+
+.portfolio-ai-input input {
+  flex: 1;
+
+  min-width: 0;
+
+  padding: 11px 13px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 12px;
+
+  outline: none;
+
+  background: #1d2027;
+
+  color: white;
+
+  font-size: 13px;
+}
+
+.portfolio-ai-input input::placeholder {
+  color: #7e8490;
+}
+
+.portfolio-ai-input input:focus {
+  border-color: rgba(169, 212, 255, 0.5);
+
+  box-shadow: 0 0 0 2px rgba(169, 212, 255, 0.06);
+}
+
+/* Send button */
+
+.portfolio-ai-input button {
+  width: 42px;
+
+  flex-shrink: 0;
+
+  border: 0;
+
+  border-radius: 12px;
+
+  background: #a9d4ff;
+
+  color: #111827;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.portfolio-ai-input button:hover {
+  background: #c4e3ff;
+
+  transform: translateY(-1px);
+}
+
+.portfolio-ai-input button:disabled {
+  opacity: 0.4;
+
+  cursor: not-allowed;
+
+  transform: none;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.portfolio-ai-footer {
+  padding: 7px;
+
+  text-align: center;
+
+  font-size: 9px;
+
+  color: #7f8793;
+
+  background: #0d0f13;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .portfolio-ai-button {
+    right: 18px;
+    bottom: 18px;
+
+    width: 68px;
+    height: 68px;
+
+    border-radius: 20px;
+  }
+
+  .portfolio-ai-chat {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    width: auto;
+    height: calc(100dvh - 20px);
+
+    border-radius: 20px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 400px) {
+  .portfolio-ai-chat {
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+
+    height: calc(100dvh - 12px);
+
+    border-radius: 18px;
+  }
+
+  .portfolio-ai-header {
+    padding: 12px;
+  }
+
+  .portfolio-ai-messages {
+    padding: 12px;
+  }
+
+  .portfolio-ai-title strong {
+    font-size: 13px;
+  }
+
+  .portfolio-ai-bubble {
+    max-width: 82%;
+
+    font-size: 12px;
+  }
+}

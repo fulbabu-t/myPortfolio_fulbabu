@@ -1,0 +1,135 @@
+@import "theme-variables-builder";
+
+/* =========================================
+   DARK / NEON GREEN THEME
+   ========================================= */
+
+$primary: #72ee5c;
+$secondary: #39c94a;
+$dark: #080b08;
+$danger: #fdd2d2;
+$muted: #6c757d;
+
+/* =========================================
+   Main Background
+   ========================================= */
+
+$base-bg: #050805;
+$base-bg-light: #0d120d;
+$base-bg-dark: #030503;
+
+/* =========================================
+   Text
+   ========================================= */
+
+$texts: #eeeeee;
+$texts-inverted: #080b08;
+
+/* =========================================
+   Containers / Cards
+   ========================================= */
+
+$base-container-bg: #0b110b;
+$base-popover-bg: #080d08;
+
+$base-boards: lighten($base-container-bg, 3%);
+
+$base-info-badges: lighten($dark, 3%);
+
+$empty: darken($base-container-bg, 3%);
+
+$empty-accent: #0c140c;
+
+/* =========================================
+   Borders
+   ========================================= */
+
+$borders: rgba(114, 238, 92, 0.2);
+
+$scrollbar-track: #050805;
+
+$scrollbar-thumb: #245d20;
+
+/* =========================================
+   Generate Dark Theme
+   ========================================= */
+
+:root {
+  @include build-theme(
+    /* ================================
+       DARK MODE
+       ================================ */
+      true,
+
+    /* ================================
+       Base Colors
+       ================================ */
+      /* PRIMARY */ $primary,
+
+    /* SECONDARY */ $secondary,
+
+    /* DARK */ $dark,
+
+    /* DANGER */ $danger,
+
+    /* MUTED */ $muted,
+
+    /* ================================
+       Main Layout Colors
+       ================================ */
+      /* BG */ $base-bg,
+
+    /* BG CONTRAST */ $base-bg-light,
+
+    /* BG CONTRAST DARKEN */ $base-bg-dark,
+
+    /* TEXTS */ $texts,
+
+    /* TEXTS INVERTED */ $texts-inverted,
+
+    /* ================================
+       Navigation
+       ================================ */
+      /* NAV MOBILE BG */ $empty-accent,
+
+    /* NAV MOBILE */ $texts,
+
+    /* NAV MOBILE BORDER */ $borders,
+
+    /* NAV MOBILE HOVER BG */ $empty-accent,
+
+    /* NAV MOBILE HOVER */ $primary,
+
+    /* NAV MOBILE SELECTED BG */ $borders,
+
+    /* NAV MOBILE SELECTED */ $primary,
+
+    /* NAV MOBILE SELECTED BORDER */ $primary,
+
+    /* ================================
+       Main Layout Elements
+       ================================ */
+      /* SECTION BG */ $base-container-bg,
+
+    /* CARD BG */ $base-container-bg,
+
+    /* POPUPS BG */ $base-popover-bg,
+
+    /* BOARDS */ $base-boards,
+
+    /* INFO BADGE BG */ $base-info-badges,
+
+    /* INFO BADGE */ $texts,
+
+    /* EMPTY */ $empty,
+
+    /* ================================
+       Other Colors
+       ================================ */
+      /* DEFAULT BORDERS */ $borders,
+
+    /* SCROLLBAR TRACK */ $scrollbar-track,
+
+    /* SCROLLBAR THUMB */ $scrollbar-thumb
+  );
+}

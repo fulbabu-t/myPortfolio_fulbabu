@@ -1,0 +1,270 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Education",
+        "title_short_nav": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "{{Education}} Background"
+      },
+      "es": {
+        "title_short": "Educación",
+        "title_short_nav": "Educación",
+        "title_long_prefix": "Esta es mi",
+        "title_long": "{{Formación}} Educativa"
+      },
+      "fr": {
+        "title_short": "Éducation",
+        "title_short_nav": "Éducation",
+        "title_long_prefix": "C'est mon",
+        "title_long": "{{Contexte}} Éducatif"
+      },
+      "ko": {
+        "title_short": "교육",
+        "title_short_nav": "교육",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{교육적}} 배경"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/timeline-place-udacity.png",
+
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2025, "month": 11 },
+          "dateEnd": { "year": 2026, "month": 2 },
+          "locales": {
+            "en": {
+              "title": "Full Stack Development {{Professional Program}}",
+              "province": "",
+              "country": "Remote",
+              "institution": "Krutanic",
+              "text": "Building a strong foundation in [[Full Stack Development]] through hands-on projects and real-world applications. Gaining practical experience with the MERN stack, REST APIs, authentication, databases, cloud deployment, and modern web development practices while creating scalable and user-friendly applications.",
+              "list": [],
+              "tags": []
+            },
+            "es": {
+              "title": "Desarrollo Full Stack {{Professional Program}}",
+              "province": "",
+              "country": "Remoto",
+              "institution": "Krutanic",
+              "text": "Completé con éxito un programa intensivo de Professional Program con un fuerte enfoque en [[Desarrollo Full Stack]], donde adquirí una experiencia práctica y completa en la creación de aplicaciones web dinámicas y escalables.",
+              "list": []
+            },
+            "fr": {
+              "title": "Développement Full Stack {{Professional Program}}",
+              "province": "",
+              "country": "À distance",
+              "institution": "Krutanic",
+              "text": "J'ai terminé avec succès un programme Professional Program intensif axé sur [[Développement Full Stack]], au cours duquel j'ai acquis une expérience pratique approfondie dans la création d'applications web dynamiques et évolutives.",
+              "list": []
+            },
+            "ko": {
+              "title": "Full Stack 개발 {{Professional Program}}",
+              "province": "",
+              "country": "원격",
+              "institution": "Krutanic",
+              "text": "[[Full Stack Development]]에 중점을 둔 집중형 Professional Program을 성공적으로 수료했으며, 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 있어 폭넓고 실용적인 경험을 쌓았습니다.",
+              "list": []
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/apna-college.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2026, "month": 8 },
+          "dateEnd": { "year": 2027, "month": 5 },
+          "locales": {
+            "en": {
+              "title": "{{SIGMAX}} - DSA + AI Full Stack Development",
+              "province": "",
+              "country": "India",
+              "institution": "Apna College",
+              "text": "Completed an intensive learning program focused on [[Data Structures, AI, and Full Stack Web Development]], including:",
+              "list": [
+                "Complete DSA in Java",
+                "Advanced Data Structures & Algorithms",
+                "Full Stack Web Development (MERN)",
+                "AI Integrated Development",
+                "LLMs, AI APIs & AI Developer Tools",
+                "LangChain, Ollama, RAG Systems & HuggingFace",
+                "Frontend, Backend & Database Development",
+                "Git & GitHub",
+                "SQL & Database Management",
+                "Docker, Kubernetes, WebRTC & AWS",
+                "Quantitative Aptitude & Core Subjects",
+                "3 AI Full Stack Projects & 5 Web Development Projects"
+              ],
+              "tags": [
+                "DSA",
+                "Artificial Intelligence",
+                "MERN",
+                "Full Stack Development",
+                "LLMs",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+              ]
+            },
+            "es": {
+              "title": "{{SIGMAX}} - DSA + Desarrollo Full Stack con IA",
+              "province": "",
+              "country": "India",
+              "institution": "Apna College",
+              "text": "Programa intensivo centrado en [[estructuras de datos, inteligencia artificial y desarrollo web Full Stack]], incluyendo:",
+              "list": [
+                "DSA completo en Java/C++",
+                "Estructuras de Datos y Algoritmos avanzados",
+                "Desarrollo Web Full Stack (MERN)",
+                "Desarrollo integrado con IA",
+                "LLMs, APIs de IA y herramientas para desarrolladores",
+                "LangChain, Ollama, sistemas RAG y HuggingFace",
+                "Desarrollo Frontend, Backend y Bases de Datos",
+                "Git y GitHub",
+                "SQL y gestión de bases de datos",
+                "Docker, Kubernetes, WebRTC y AWS",
+                "Aptitud cuantitativa y materias fundamentales",
+                "3 proyectos Full Stack con IA y 5 proyectos de desarrollo web"
+              ],
+              "tags": [
+                "DSA",
+                "Inteligencia Artificial",
+                "MERN",
+                "Desarrollo Full Stack",
+                "LLMs",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+              ]
+            },
+            "fr": {
+              "title": "{{SIGMAX}} - DSA + Développement Full Stack avec IA",
+              "province": "",
+              "country": "Inde",
+              "institution": "Apna College",
+              "text": "Programme intensif axé sur [[les structures de données, l'intelligence artificielle et le développement Web Full Stack]], notamment :",
+              "list": [
+                "DSA complet en Java/C++",
+                "Structures de données et algorithmes avancés",
+                "Développement Web Full Stack (MERN)",
+                "Développement intégré avec l'IA",
+                "LLM, API d'IA et outils pour développeurs",
+                "LangChain, Ollama, systèmes RAG et HuggingFace",
+                "Développement Frontend, Backend et Bases de données",
+                "Git et GitHub",
+                "SQL et gestion des bases de données",
+                "Docker, Kubernetes, WebRTC et AWS",
+                "Aptitude quantitative et matières fondamentales",
+                "3 projets Full Stack avec IA et 5 projets de développement Web"
+              ],
+              "tags": [
+                "DSA",
+                "Intelligence Artificielle",
+                "MERN",
+                "Développement Full Stack",
+                "LLMs",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+              ]
+            },
+            "ko": {
+              "title": "{{SIGMAX}} - DSA + AI 풀스택 개발",
+              "province": "",
+              "country": "인도",
+              "institution": "Apna College",
+              "text": "[[자료구조, 인공지능 및 풀스택 웹 개발]]을 중심으로 한 집중 학습 프로그램으로 다음 내용을 포함합니다:",
+              "list": [
+                "Java/C++를 활용한 전체 DSA",
+                "고급 자료구조 및 알고리즘",
+                "풀스택 웹 개발 (MERN)",
+                "AI 통합 개발",
+                "LLM, AI API 및 개발자용 AI 도구",
+                "LangChain, Ollama, RAG 시스템 및 HuggingFace",
+                "프론트엔드, 백엔드 및 데이터베이스",
+                "Git 및 GitHub",
+                "SQL 및 데이터베이스 관리",
+                "Docker, Kubernetes, WebRTC 및 AWS",
+                "수리 능력 및 핵심 과목",
+                "AI 풀스택 프로젝트 3개 및 웹 개발 프로젝트 5개"
+              ],
+              "tags": [
+                "DSA",
+                "인공지능",
+                "MERN",
+                "풀스택 개발",
+                "LLMs",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/timeline-place-mit.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2023, "month": 1 },
+          "dateEnd": { "year": 2027, "month": 12 },
+          "locales": {
+            "en": {
+              "title": "{{Bachelor}} in Computer Science & Engineering",
+              "province": "Haryana",
+              "country": "India",
+              "institution": "J.C. Bose University of Science and Technology, YMCA",
+              "text": "Earned a [[Bachelor's degree in Computer Science & Engineering]], Focused on [[Data Structures & Algorithms]], Software Engineering, Full-Stack Web Development, Artificial Intelligence, and Cloud Computing. Gained hands-on experience through academic projects, open-source contributions, hackathons, coding challenges, and collaborative team-based software development, building scalable and real-world applications.",
+              "list": [],
+              "tags": []
+            },
+            "es": {
+              "title": "{{Grado}} en Ciencias de la Computación",
+              "province": "Haryana",
+              "country": "India",
+              "institution": "J.C. Bose University of Science and Technology, YMCA",
+              "text": "Obtuve un [[grado en Ciencias de la Computación]], con enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de diversos proyectos de programación, bootcamps de codificación y actividades colaborativas de desarrollo en equipo.",
+              "list": [],
+              "tags": []
+            },
+            "fr": {
+              "title": "{{Licence}} en informatique",
+              "province": "Haryana",
+              "country": "Inde",
+              "institution": "J.C. Bose University of Science and Technology, YMCA",
+              "text": "J'ai obtenu une [[licence en informatique]], avec un accent sur les algorithmes, les structures de données, l’ingénierie logicielle et le développement web. J'ai acquis une solide expérience pratique grâce à divers projets de programmation, des bootcamps de code et des activités collaboratives en équipe.",
+              "list": [],
+              "tags": []
+            },
+            "ko": {
+              "title": "컴퓨터 과학 {{학사}}",
+              "province": "Haryana",
+              "country": "인도",
+              "institution": "J.C. Bose University of Science and Technology, YMCA",
+              "text": "알고리즘, 자료 구조, 소프트웨어 공학, 웹 개발에 중점을 둔 [[컴퓨터 과학 학사 학위]]를 취득하였습니다. 다양한 프로그래밍 프로젝트, 코딩 부트캠프, 그리고 팀 기반의 협업 활동을 통해 실무 경험을 쌓았습니다.",
+              "list": [],
+              "tags": []
+            }
+          }
+        }
+
+       
+      ]
+    }
+  ]
+}

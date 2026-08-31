@@ -1,0 +1,256 @@
+/* =================================
+   DARK / NEON GREEN THEME
+   Structure remains unchanged
+   ================================= */
+
+:root {
+  --portfolio-bg: #080b08;
+  --portfolio-card: #121712;
+  --portfolio-green: #72ee5c;
+  --portfolio-green-light: #8cff78;
+  --portfolio-text: #eeeeee;
+  --portfolio-muted: #9aa39a;
+}
+
+/* =================================
+   Main background
+   ================================= */
+
+body {
+  background:
+    radial-gradient(
+      circle at 75% 20%,
+      rgba(57, 255, 20, 0.07),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(57, 255, 20, 0.04),
+      transparent 30%
+    ),
+    var(--portfolio-bg) !important;
+
+  color: var(--portfolio-text) !important;
+}
+
+/* =================================
+   Sidebar
+   ================================= */
+
+.sidebar,
+.side-bar,
+.profile-sidebar {
+  background: linear-gradient(180deg, #111511 0%, #090c09 100%) !important;
+
+  border: 1px solid rgba(57, 255, 20, 0.15) !important;
+
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.08);
+}
+
+/* =================================
+   Navigation
+   ================================= */
+
+.nav-item,
+.menu-item {
+  background: transparent !important;
+
+  color: #bfc5bf !important;
+
+  transition: all 0.25s ease;
+}
+
+.nav-item:hover,
+.menu-item:hover,
+.nav-item.active,
+.menu-item.active {
+  background: linear-gradient(
+    90deg,
+    rgba(57, 255, 20, 0.18),
+    rgba(57, 255, 20, 0.03)
+  ) !important;
+
+  color: var(--portfolio-green-light) !important;
+
+  box-shadow: inset 3px 0 0 var(--portfolio-green);
+}
+
+/* =================================
+   Green headings
+   ================================= */
+
+h1 span,
+h2 span,
+h3 span,
+.green,
+.highlight {
+  color: var(--portfolio-green) !important;
+
+  text-shadow: 0 0 12px rgba(57, 255, 20, 0.35);
+}
+
+/* =================================
+   Section titles
+   ================================= */
+
+.section-title {
+  border-left: 4px solid var(--portfolio-green);
+
+  padding-left: 16px;
+}
+
+/* =================================
+   Cards
+   ================================= */
+
+.card,
+.about-card,
+.testimonial,
+.skill-card,
+.project-card,
+.timeline-item {
+  background: rgba(18, 23, 18, 0.92) !important;
+
+  border: 1px solid rgba(57, 255, 20, 0.15) !important;
+
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.06);
+
+  transition: all 0.3s ease;
+}
+
+/* =================================
+   Card hover
+   ================================= */
+
+.card:hover,
+.about-card:hover,
+.testimonial:hover,
+.skill-card:hover,
+.project-card:hover {
+  border-color: rgba(112, 228, 92, 0.45) !important;
+
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.12);
+}
+
+/* =================================
+   Links
+   ================================= */
+
+a {
+  color: var(--portfolio-green-light);
+
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: var(--portfolio-green);
+
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+/* =================================
+   Buttons
+   ================================= */
+
+button,
+.btn {
+  background: rgba(57, 255, 20, 0.08) !important;
+
+  color: var(--portfolio-green-light) !important;
+
+  border: 1px solid rgba(57, 255, 20, 0.35) !important;
+
+  transition: 0.25s ease;
+}
+
+button:hover,
+.btn:hover {
+  background: var(--portfolio-green) !important;
+
+  color: #061006 !important;
+
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.35);
+}
+
+/* =================================
+   Online dot
+   ================================= */
+
+.online,
+.status-dot {
+  background: var(--portfolio-green) !important;
+
+  box-shadow: 0 0 12px var(--portfolio-green);
+}
+
+/* =================================
+   Images / monitor
+   ================================= */
+
+.about-image,
+.code-image,
+.monitor {
+  border-color: var(--portfolio-green) !important;
+
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.18);
+}
+
+/* =================================
+   Scrollbar
+   ================================= */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080b08;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #245d20;
+
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--portfolio-green);
+}
+
+/* =================================
+   Inputs
+   ================================= */
+
+input,
+textarea,
+select {
+  background: #0c110c !important;
+
+  color: var(--portfolio-text) !important;
+
+  border: 1px solid rgba(57, 255, 20, 0.2) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--portfolio-green) !important;
+
+  box-shadow: 0 0 12px rgba(57, 255, 20, 0.15) !important;
+
+  outline: none;
+}
+
+/* =================================
+   Chatbot
+   ================================= */
+
+.chatbot,
+.chat-button,
+.chat-widget {
+  background: linear-gradient(135deg, #182218, #0c120c) !important;
+
+  border: 1px solid rgba(57, 255, 20, 0.4) !important;
+
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.2);
+}

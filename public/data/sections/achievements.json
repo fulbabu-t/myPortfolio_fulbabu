@@ -1,0 +1,295 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Logros",
+        "title_short_nav": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "{{Logros}} Profesionales"
+      },
+      "fr": {
+        "title_short": "Réalis",
+        "title_short_nav": "Réalisations",
+        "title_long_prefix": "Voici",
+        "title_long": "Mes {{Réalisations}}"
+      },
+      "ko": {
+        "title_short": "경력 성과",
+        "title_short_nav": "경력 성과",
+        "title_long_prefix": "다음은",
+        "title_long": "{{경력 성과}}입니다"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "fr": { "title": "Certifications" },
+        "ko": { "title": "인증서" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/postmanapi.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "#FF6C37",
+            "fill": "#FFFFFF"
+          },
+          "date": {
+            "year": 2025,
+            "month": 11
+          },
+          "link": {
+            "href": " ",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "Postman API",
+              "text": "API Development & Testing with Postman"
+            },
+            "es": {
+              "title": "Postman API",
+              "text": "Desarrollo y Pruebas de API con Postman"
+            },
+            "fr": {
+              "title": "Postman API",
+              "text": "Développement et Tests d’API avec Postman"
+            },
+            "ko": {
+              "title": "Postman API",
+              "text": "Postman을 활용한 API 개발 및 테스트"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "images/pictures/gfg.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "#2F8D46",
+            "fill": "#FFF"
+          },
+          "date": {
+            "year": 2025,
+            "month": 11
+          },
+          "link": {
+            "href": "https://www.geeksforgeeks.org/certificate/fc48c9c796621db94a089a14c00dc1bf",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{GeeksforGeeks}}",
+              "text": "GfG 160 - 160 Days of Problem Solving"
+            },
+            "es": {
+              "text": "GfG 160 - 160 Días de Resolución de Problemas"
+            },
+            "fr": {
+              "text": "GfG 160 - 160 Jours de Résolution de Problèmes"
+            },
+            "ko": {
+              "text": "GfG 160 - 160일 문제 해결"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "images/pictures/apna-college.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "#000000",
+            "fill": "#FFF"
+          },
+          "date": {
+            "year": 2026,
+            "month": 8
+          },
+          "link": {
+            "href": "YOUR_APNA_COLLEGE_CERTIFICATE_LINK",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Apna College}}",
+              "text": "Apna College - Full Stack Development"
+            },
+            "es": {
+              "text": "Apna College - Desarrollo Full Stack"
+            },
+            "fr": {
+              "text": "Apna College - Développement Full Stack"
+            },
+            "ko": {
+              "text": "Apna College - 풀스택 개발"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": { "bg": "#FFD700", "fill": "#111" },
+          "date": { "year": 2025, "month": 5 },
+          "link": {
+            "href": "",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Amazon}} Web Services",
+              "text": "AWS Certified Solutions Architect – Associate"
+            },
+            "es": {
+              "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
+            },
+            "fr": {
+              "text": "Architecte de Solutions Certifié AWS - Associé"
+            },
+            "ko": {
+              "text": "AWS 공인 솔루션 아키텍트 - 준회원"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": { "bg": "#007396", "fill": "#EEE" },
+          "date": { "year": 2024, "month": 5 },
+          "link": {
+            "href": "",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Oracle}}",
+              "text": "Certified Java Developer"
+            },
+            "es": {
+              "text": "Desarrollador Java Certificado"
+            },
+            "fr": {
+              "text": "Développeur Java Certifié"
+            },
+            "ko": {
+              "text": "공인 자바 개발자"
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "#47A248", "fill": "#EEE" },
+          "date": { "year": 2023, "month": 8 },
+          "link": {
+            "href": "",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{MongoDB}} University",
+              "text": "MongoDB Certified Developer"
+            },
+            "es": {
+              "text": "Desarrollador Certificado de MongoDB"
+            },
+            "fr": {
+              "text": "Développeur Certifié MongoDB"
+            },
+            "ko": {
+              "text": "MongoDB 공인 개발자"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Awards" },
+        "es": { "title": "Premios" },
+        "fr": { "title": "Récompenses" },
+        "ko": { "title": "수상 내역" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2026, "month": 8 },
+          "preview": {
+            "links": [],
+            "screenshots": [
+              "images/pictures/gssoc-1.png",
+              "images/pictures/gssoc-2.png",
+              "images/pictures/gssoc-3.png",
+              "images/pictures/gssoc-4.png"
+            ],
+
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{GSSoC'26 Contributor}} – Open Source Contribution",
+              "province": "Haryana",
+              "country": "India",
+              "institution": "GirlScript Summer of Code",
+              "text": "Selected as a Contributor for GirlScript Summer of Code (GSSoC) '26, contributing to open-source projects, collaborating with developers, and improving practical software development skills through real-world projects."
+            },
+            "es": {
+              "title": "{{Colaborador de GSSoC'26}} – Contribución Open Source",
+              "province": "Haryana",
+              "country": "India",
+              "institution": "GirlScript Summer of Code",
+              "text": "Seleccionado como colaborador de GirlScript Summer of Code (GSSoC) '26, contribuyendo a proyectos de código abierto, colaborando con desarrolladores y desarrollando habilidades prácticas mediante proyectos reales."
+            },
+            "fr": {
+              "title": "{{Contributeur GSSoC'26}} – Contribution Open Source",
+              "province": "Haryana",
+              "country": "Inde",
+              "institution": "GirlScript Summer of Code",
+              "text": "Sélectionné comme contributeur pour GirlScript Summer of Code (GSSoC) '26, avec des contributions à des projets open source, une collaboration avec des développeurs et le développement de compétences pratiques grâce à des projets réels."
+            },
+            "ko": {
+              "title": "{{GSSoC'26 기여자}} – 오픈소스 기여",
+              "province": "하리아나",
+              "country": "인도",
+              "institution": "GirlScript Summer of Code",
+              "text": "GirlScript Summer of Code (GSSoC) '26의 기여자로 선정되어 오픈소스 프로젝트에 기여하고 개발자들과 협업하며 실제 프로젝트를 통해 실무 소프트웨어 개발 역량을 향상시키고 있습니다."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

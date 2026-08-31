@@ -1,0 +1,60 @@
+{
+  "name": "Fulbabu Islam",
+
+  "profilePictureUrl": "images/pictures/profile-picture.jpg",
+  "resumePdfUrl": "images/pictures/resume.pdf",
+
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+  "locales": {
+    "en": {
+      "localized_name": "Fulbabu Islam",
+      "localized_name_stylized": " [[Fulbabu {{Islam}}]]",
+      "status_message_available_for_freelance": "Available for freelance!",
+      "roles": [
+        "Full Stack Developer",
+        "MERN Stack Developer",
+        "AI Engineer",
+        "Software Engineer",
+        "UX Designer"
+      ],
+      "name_pronunciation_ipa": "/fulbabu islam/",
+      "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+    },
+    "es": {
+      "status_message_available_for_freelance": "¡Disponible para freelance!",
+      "roles": [
+        "Full Stack Developer",
+        "MERN Stack Developer",
+        "AI Engineer",
+        "Software Engineer",
+        "Diseñador UX"
+      ]
+    },
+    "fr": {
+      "status_message_available_for_freelance": "Disponible pour freelance !",
+      "roles": [
+        "Full Stack Developer",
+        "MERN Stack Developer",
+        "AI Engineer",
+        "Software Engineer",
+        "Designer UX"
+      ]
+    },
+    "ko": {
+      "localized_name": "풀바부 이슬람",
+      "localized_name_stylized": " [[풀바부]]{{이슬람}}",
+      "status_message_available_for_freelance": "프리랜스 가능합니다!",
+      "roles": [
+        "백엔드 개발자",
+        "프론트엔드 개발자",
+        "데브옵스 엔지니어",
+        "UX 디자이너"
+      ],
+      "name_pronunciation_ipa": "/fulbabu islam/",
+      "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+    }
+  }
+}
